@@ -1,0 +1,10 @@
+---
+# tasks file for ldapsearch
+- name: update system
+  apt: update_cache=yes force_apt_get=yes
+  register: output
+- name: install ldapsearch
+  apt: name={{ item }} state=latest
+  loop:
+    - slapd
+    - ldap-utils
