@@ -1,0 +1,8 @@
+---
+# tasks file for timesync
+- name: Test date
+  debug:
+    msg: "{{ ansible_date_time }}"
+- name: Set timezone
+  timezone:
+    name: Asia/Novosibirsk
