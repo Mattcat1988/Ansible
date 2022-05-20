@@ -23,13 +23,19 @@
   apt_key:
     url: https://download.docker.com/linux/ubuntu/gpg
     state: present
+
 - name: Add Docker Repository
   apt_repository:
     repo: deb https://download.docker.com/linux/ubuntu focal stable
     state: present
-- name: apt update and install docker-ce
-  apt: name={{ item }} state=latest update_cache:true
-  loop:
-    - docker-ce
-    - docker-compose-plugin
+
+- name: Update apt and install docker-ce
+  apt:
+    name: docker-ce
+    state: latest
+    update_cache: true
+
+- name: Install Docker Module for Python
+  pip:
+    name: docker
 
