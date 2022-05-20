@@ -1,2 +1,2 @@
 [test]
-ubuntu_server_20   ansible_host=192.168.122.128
+Ubuntu-server-20   ansible_host=192.168.122.128

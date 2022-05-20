@@ -1,5 +1,9 @@
 ---
 # tasks file for change_name
+- name: Here we are checking inventory_hostname
+  debug:
+   msg: "hostname is {{ inventory_hostname }}"
+
 - name: change hostname to myserver
   hostname:
     name: "{{ inventory_hostname }}"
