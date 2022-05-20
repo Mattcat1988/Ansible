@@ -7,5 +7,5 @@
 #    - krb5-config
 #    - ldapsearch
 #    - docker_install
-#    - change_name
-    - timesync
+    - change_name
+#    - timesync

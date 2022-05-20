@@ -1,5 +1,5 @@
 ---
 # tasks file for change_name
-- name: Change the hostname to our standard
+- name: change hostname to myserver
   hostname:
-    name="{{ inventory_hostname }}"
+    name: "{{ inventory_hostname }}"
