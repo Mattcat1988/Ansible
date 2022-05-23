@@ -9,3 +9,11 @@
     name: Asia/Novosibirsk
 - name: Install NTP
   apt: name=ntp update-cache=yes
+- name: deploy NTP file
+  template:
+    src=templates/ntp.conf
+    dest=/etc/ntp.conf
+    owner=root
+    group=root
+    mode=0644
+    backup=yes
