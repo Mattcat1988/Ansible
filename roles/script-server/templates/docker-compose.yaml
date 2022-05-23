@@ -12,11 +12,11 @@ services:
       - "5000:5000"
     volumes:
 #      - conf.json:/app/conf/conf.json
-#      - runners:/app/conf/runners
+      - runners:/app/conf/runners
       - scripts:/app/scripts
     depends_on:
       - "nginx"
 volumes:
 #  conf.json: {}
-#  runners: {}
+  runners: {}
   scripts: {}
