@@ -1,22 +1,35 @@
 version: "3.9"
 services:
   nginx:
-    image: nginx:latest
-    container_name: web
+    build:
+      context: .
+    container_name: "nginx"
+    networks:
+      - front
     ports:
       - "80:80"
+    depends_on:
+      - "script-server"
+
   script-server:
     image: bugy/script-server:1.17.0
     container_name: script-server
     ports:
       - "5000:5000"
+    networks:
+      - front
+#         aliases:
+#           - script-server
     volumes:
 #      - conf.json:/app/conf/conf.json
       - runners:/app/conf/runners
       - scripts:/app/scripts
-    depends_on:
-      - "nginx"
+#    depends_on:
+#      - "nginx"
 volumes:
 #  conf.json: {}
   runners: {}
   scripts: {}
+networks:
+  front:
+    driver: bridge
