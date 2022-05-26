@@ -21,15 +21,19 @@ services:
 #         aliases:
 #           - script-server
     volumes:
-#      - conf.json:/app/conf/conf.json
-      - runners:/app/conf/runners
-      - scripts:/app/scripts
+      - conf:/app/conf/conf
+      - logs:/app/conf/logs
+      - src:/app/src
+      - temp:/app/temp
+      - web:/app/web
 #    depends_on:
 #      - "nginx"
 volumes:
-#  conf.json: {}
-  runners: {}
-  scripts: {}
+  conf: {}
+  logs: {}
+  src: {}
+  temp: {}
+  web: {}
 networks:
   front:
     driver: bridge
