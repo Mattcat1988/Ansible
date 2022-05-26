@@ -2,8 +2,12 @@
 # tasks file for script-server
 - name: copy docker-compose.yaml
   copy:
-    src: templates/docker-compose.yaml
+    src: templates/{{ item }}
     dest: /root/app/
     owner: root
     group: root
     mode: 0644
+  with_items:
+    - docker-compose.yaml
+    - nginx.conf
+    - default.conf
