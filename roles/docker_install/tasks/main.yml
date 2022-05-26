@@ -44,9 +44,13 @@
 - name: Install Docker Module for Python
   pip:
     name: docker
+- name: docker-compose pip install
+  pip:
+    name: docker-compose
 - name: Add remote "ubuntu" user to "docker" group
   user:
-    name: "vova"
+    name: "{{ item }}"
     group: "docker"
     append: yes
+  with_items: '{{ docker_users }}'
 

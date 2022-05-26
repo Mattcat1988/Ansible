@@ -11,3 +11,13 @@
     - docker-compose.yaml
     - nginx.conf
     - default.conf
+    - Dockerfile
+- name: exit docker container
+  docker_compose:
+    project_src: app/
+    state: absent
+- name: docker-compose up
+  docker_compose:
+    project_src: app/
+    state: present
+
