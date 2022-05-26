@@ -1,2 +1,9 @@
 ---
 # tasks file for script-server
+- name: copy docker-compose.yaml
+  copy:
+    src: templates/docker-compose.yaml
+    dest: /root/app/
+    owner: root
+    group: root
+    mode: 0644

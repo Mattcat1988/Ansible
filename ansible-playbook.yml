@@ -8,4 +8,5 @@
 #    - ldapsearch
 #    - docker_install
 #    - change_name
-    - timesync
+#    - timesync
+    - script-server
