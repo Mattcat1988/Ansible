@@ -49,8 +49,7 @@
     name: docker-compose
 - name: Add remote "ubuntu" user to "docker" group
   user:
-    name: "{{ item }}"
+    name: "root"
     group: "docker"
     append: yes
-  with_items: '{{ docker_users }}'
 
