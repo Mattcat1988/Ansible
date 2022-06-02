@@ -1,0 +1,8 @@
+{
+  "name": "update",
+  "script_path": "/home/vladimir/scripts/update.sh",
+  "working_directory": "/",
+  "description": "update you system",
+  "group": "users",
+  "parameters": []
+}

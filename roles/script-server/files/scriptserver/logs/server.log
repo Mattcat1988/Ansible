@@ -1,0 +1,464 @@
+2022-05-26 14:56:20,817 [root.INFO] Starting Script Server, v1.17.1
+2022-05-26 14:56:20,818 [migrations.INFO] Applying migration add_execution_info_to_log_files
+2022-05-26 14:56:20,818 [migrations.INFO] Applying migration introduce_access_config
+2022-05-26 14:56:20,818 [migrations.INFO] Applying migration migrate_bash_formatting_to_output_format
+2022-05-26 14:56:20,819 [migrations.INFO] Applying migration add_user_id_to_log_files
+2022-05-26 14:56:20,819 [migrations.INFO] Applying migration migrate_repeat_param_and_same_arg_param
+2022-05-26 14:56:20,819 [migrations.INFO] Applying migration migrate_output_files_parameters_substitution
+2022-05-26 14:56:35,968 [tornado.access.INFO] 302 GET / (127.0.0.1) 0.50ms
+2022-05-26 14:56:35,990 [tornado.access.WARNING] 404 GET /js/chunk-index-vendors.ffc2679f.js (127.0.0.1) 0.88ms
+2022-05-26 14:56:36,009 [tornado.general.ERROR] Could not open static file '/home/vladimir/Загрузки/govno/conf/theme/theme.css'
+2022-05-26 14:56:36,010 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.02ms
+2022-05-26 14:56:49,314 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 20.17ms
+2022-05-26 14:56:49,381 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 36.08ms
+2022-05-26 14:56:49,393 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 11.38ms
+2022-05-26 14:56:49,393 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 10.82ms
+2022-05-26 14:56:49,533 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 0.76ms
+2022-05-26 14:56:49,533 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.42ms
+2022-05-26 14:56:49,534 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 0.77ms
+2022-05-26 14:56:49,535 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 0.57ms
+2022-05-26 14:56:49,617 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.52ms
+2022-05-26 14:56:52,128 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.38ms
+2022-05-26 14:56:52,148 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.94ms
+2022-05-26 14:56:52,151 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.63ms
+2022-05-26 14:56:52,160 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 7.66ms
+2022-05-26 14:56:52,166 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 13.40ms
+2022-05-26 14:56:52,205 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 37.87ms
+2022-05-26 14:56:52,333 [tornado.access.INFO] 304 GET /history/execution_log/short (127.0.0.1) 0.78ms
+2022-05-26 14:56:52,359 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.55ms
+2022-05-26 14:56:52,369 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 0.88ms
+2022-05-26 14:56:56,544 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 0.89ms
+2022-05-26 14:57:01,017 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.12ms
+2022-05-26 14:57:01,207 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.66ms
+2022-05-26 14:57:01,208 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 0.53ms
+2022-05-26 14:57:01,209 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 0.76ms
+2022-05-26 14:57:01,210 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 0.58ms
+2022-05-26 14:57:27,417 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.57ms
+2022-05-26 14:57:27,557 [tornado.access.INFO] 304 GET /history/execution_log/short (127.0.0.1) 0.56ms
+2022-05-26 14:57:27,560 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.53ms
+2022-05-26 14:57:29,705 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.77ms
+2022-05-26 14:57:29,827 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.65ms
+2022-05-26 14:57:29,828 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 0.73ms
+2022-05-26 14:57:29,828 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 0.94ms
+2022-05-26 14:57:29,829 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 0.69ms
+2022-05-26 14:57:31,834 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.52ms
+2022-05-26 14:57:31,944 [tornado.access.INFO] 304 GET /history/execution_log/short (127.0.0.1) 0.80ms
+2022-05-26 14:57:31,948 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.61ms
+2022-05-26 14:57:33,113 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 1.12ms
+2022-05-26 14:57:56,023 [tornado.access.INFO] 200 GET /88f2b86b79781364b99947d07d3c3469.js (127.0.0.1) 1.79ms
+2022-05-26 14:59:59,914 [tornado.access.INFO] 304 GET /admin.html (127.0.0.1) 1.83ms
+2022-05-26 14:59:59,952 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.75ms
+2022-05-26 15:00:00,042 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.56ms
+2022-05-26 15:00:01,991 [tornado.access.INFO] 304 GET /admin.html (127.0.0.1) 2.00ms
+2022-05-26 15:00:02,013 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.72ms
+2022-05-26 15:00:02,143 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.54ms
+2022-05-26 15:00:45,625 [config_service.INFO] Creating new script config "update" in conf/runners/update.json
+2022-05-26 15:00:45,625 [tornado.access.INFO] 200 POST /admin/scripts (127.0.0.1) 2.74ms
+2022-05-26 15:00:45,652 [tornado.access.INFO] 200 GET /admin/scripts/update (127.0.0.1) 1.24ms
+2022-05-26 15:00:49,424 [tornado.access.INFO] 304 GET /history/execution_log/short (127.0.0.1) 0.88ms
+2022-05-26 15:00:50,731 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.95ms
+2022-05-26 15:00:50,873 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.63ms
+2022-05-26 15:00:50,873 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 0.39ms
+2022-05-26 15:00:50,875 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 0.95ms
+2022-05-26 15:00:50,877 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 0.53ms
+2022-05-26 15:00:52,304 [tornado.access.INFO] 304 GET /index.html (127.0.0.1) 0.86ms
+2022-05-26 15:00:52,320 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.64ms
+2022-05-26 15:00:52,447 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.62ms
+2022-05-26 15:00:52,448 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 0.59ms
+2022-05-26 15:00:52,450 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 1.01ms
+2022-05-26 15:00:52,451 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 0.56ms
+2022-05-26 15:00:54,017 [tornado.access.INFO] 101 GET /scripts/update?initWithValues=false (127.0.0.1) 1.43ms
+2022-05-26 15:00:58,302 [web_server.INFO] Calling script update. User {'ip': '127.0.0.1', 'hostname': 'localhost'}
+2022-05-26 15:00:58,303 [script_server.execution_service.INFO] Calling script #1: conf/scripts/update.sh
+2022-05-26 15:00:58,309 [web_server.ERROR] Error while calling the script
+Traceback (most recent call last):
+  File "/home/vladimir/Загрузки/govno/src/web/server.py", line 395, in post
+    execution_id = self.application.execution_service.start_script(
+  File "/home/vladimir/Загрузки/govno/src/execution/execution_service.py", line 52, in start_script
+    executor.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/executor.py", line 98, in start
+    process_wrapper.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/process_base.py", line 29, in start
+    self.start_execution(self.command, self.working_directory)
+  File "/home/vladimir/Загрузки/govno/src/execution/process_pty.py", line 42, in start_execution
+    self.process = subprocess.Popen(command,
+  File "/usr/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'workdir'
+2022-05-26 15:00:58,320 [tornado.access.ERROR] 500 POST /executions/start (127.0.0.1) 20.15ms
+2022-05-26 15:01:00,248 [web_server.INFO] Calling script update. User {'ip': '127.0.0.1', 'hostname': 'localhost'}
+2022-05-26 15:01:00,249 [script_server.execution_service.INFO] Calling script #2: conf/scripts/update.sh
+2022-05-26 15:01:00,250 [web_server.ERROR] Error while calling the script
+Traceback (most recent call last):
+  File "/home/vladimir/Загрузки/govno/src/web/server.py", line 395, in post
+    execution_id = self.application.execution_service.start_script(
+  File "/home/vladimir/Загрузки/govno/src/execution/execution_service.py", line 52, in start_script
+    executor.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/executor.py", line 98, in start
+    process_wrapper.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/process_base.py", line 29, in start
+    self.start_execution(self.command, self.working_directory)
+  File "/home/vladimir/Загрузки/govno/src/execution/process_pty.py", line 42, in start_execution
+    self.process = subprocess.Popen(command,
+  File "/usr/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'workdir'
+2022-05-26 15:01:00,251 [tornado.access.ERROR] 500 POST /executions/start (127.0.0.1) 5.52ms
+2022-05-26 15:01:02,280 [web_server.INFO] Calling script update. User {'ip': '127.0.0.1', 'hostname': 'localhost'}
+2022-05-26 15:01:02,280 [script_server.execution_service.INFO] Calling script #3: conf/scripts/update.sh
+2022-05-26 15:01:02,281 [web_server.ERROR] Error while calling the script
+Traceback (most recent call last):
+  File "/home/vladimir/Загрузки/govno/src/web/server.py", line 395, in post
+    execution_id = self.application.execution_service.start_script(
+  File "/home/vladimir/Загрузки/govno/src/execution/execution_service.py", line 52, in start_script
+    executor.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/executor.py", line 98, in start
+    process_wrapper.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/process_base.py", line 29, in start
+    self.start_execution(self.command, self.working_directory)
+  File "/home/vladimir/Загрузки/govno/src/execution/process_pty.py", line 42, in start_execution
+    self.process = subprocess.Popen(command,
+  File "/usr/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'workdir'
+2022-05-26 15:01:02,282 [tornado.access.ERROR] 500 POST /executions/start (127.0.0.1) 4.34ms
+2022-05-26 15:01:04,696 [web_server.INFO] Calling script update. User {'ip': '127.0.0.1', 'hostname': 'localhost'}
+2022-05-26 15:01:04,696 [script_server.execution_service.INFO] Calling script #4: conf/scripts/update.sh
+2022-05-26 15:01:04,697 [web_server.ERROR] Error while calling the script
+Traceback (most recent call last):
+  File "/home/vladimir/Загрузки/govno/src/web/server.py", line 395, in post
+    execution_id = self.application.execution_service.start_script(
+  File "/home/vladimir/Загрузки/govno/src/execution/execution_service.py", line 52, in start_script
+    executor.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/executor.py", line 98, in start
+    process_wrapper.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/process_base.py", line 29, in start
+    self.start_execution(self.command, self.working_directory)
+  File "/home/vladimir/Загрузки/govno/src/execution/process_pty.py", line 42, in start_execution
+    self.process = subprocess.Popen(command,
+  File "/usr/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'workdir'
+2022-05-26 15:01:04,698 [tornado.access.ERROR] 500 POST /executions/start (127.0.0.1) 4.64ms
+2022-05-26 15:01:08,296 [web_server.INFO] Calling script update. User {'ip': '127.0.0.1', 'hostname': 'localhost'}
+2022-05-26 15:01:08,296 [script_server.execution_service.INFO] Calling script #5: conf/scripts/update.sh
+2022-05-26 15:01:08,297 [web_server.ERROR] Error while calling the script
+Traceback (most recent call last):
+  File "/home/vladimir/Загрузки/govno/src/web/server.py", line 395, in post
+    execution_id = self.application.execution_service.start_script(
+  File "/home/vladimir/Загрузки/govno/src/execution/execution_service.py", line 52, in start_script
+    executor.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/executor.py", line 98, in start
+    process_wrapper.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/process_base.py", line 29, in start
+    self.start_execution(self.command, self.working_directory)
+  File "/home/vladimir/Загрузки/govno/src/execution/process_pty.py", line 42, in start_execution
+    self.process = subprocess.Popen(command,
+  File "/usr/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'workdir'
+2022-05-26 15:01:08,298 [tornado.access.ERROR] 500 POST /executions/start (127.0.0.1) 4.95ms
+2022-05-26 15:01:10,474 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.81ms
+2022-05-26 15:01:10,601 [tornado.access.INFO] 304 GET /history/execution_log/short (127.0.0.1) 0.72ms
+2022-05-26 15:01:10,604 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.71ms
+2022-05-26 15:01:11,976 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 1.89ms
+2022-05-26 15:01:13,023 [tornado.access.INFO] 304 GET /admin/scripts/update (127.0.0.1) 1.19ms
+2022-05-26 15:01:36,116 [config_service.INFO] Updating script config "update" in conf/runners/update.json
+2022-05-26 15:01:36,117 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 4.40ms
+2022-05-26 15:01:36,128 [tornado.access.INFO] 200 GET /admin/scripts/update (127.0.0.1) 1.64ms
+2022-05-26 15:01:38,691 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.64ms
+2022-05-26 15:01:38,839 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.73ms
+2022-05-26 15:01:38,840 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 0.48ms
+2022-05-26 15:01:38,841 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 1.21ms
+2022-05-26 15:01:38,842 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 0.70ms
+2022-05-26 15:01:40,612 [tornado.access.INFO] 101 GET /scripts/update?initWithValues=false (127.0.0.1) 0.70ms
+2022-05-26 15:01:41,549 [web_server.INFO] Calling script update. User {'ip': '127.0.0.1', 'hostname': 'localhost'}
+2022-05-26 15:01:41,549 [script_server.execution_service.INFO] Calling script #6: conf/scripts/update.sh
+2022-05-26 15:01:41,551 [web_server.ERROR] Error while calling the script
+Traceback (most recent call last):
+  File "/home/vladimir/Загрузки/govno/src/web/server.py", line 395, in post
+    execution_id = self.application.execution_service.start_script(
+  File "/home/vladimir/Загрузки/govno/src/execution/execution_service.py", line 52, in start_script
+    executor.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/executor.py", line 98, in start
+    process_wrapper.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/process_base.py", line 29, in start
+    self.start_execution(self.command, self.working_directory)
+  File "/home/vladimir/Загрузки/govno/src/execution/process_pty.py", line 42, in start_execution
+    self.process = subprocess.Popen(command,
+  File "/usr/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conf/scripts/update.sh'
+2022-05-26 15:01:41,552 [tornado.access.ERROR] 500 POST /executions/start (127.0.0.1) 4.82ms
+2022-05-26 15:01:43,287 [web_server.INFO] Calling script update. User {'ip': '127.0.0.1', 'hostname': 'localhost'}
+2022-05-26 15:01:43,288 [script_server.execution_service.INFO] Calling script #7: conf/scripts/update.sh
+2022-05-26 15:01:43,289 [web_server.ERROR] Error while calling the script
+Traceback (most recent call last):
+  File "/home/vladimir/Загрузки/govno/src/web/server.py", line 395, in post
+    execution_id = self.application.execution_service.start_script(
+  File "/home/vladimir/Загрузки/govno/src/execution/execution_service.py", line 52, in start_script
+    executor.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/executor.py", line 98, in start
+    process_wrapper.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/process_base.py", line 29, in start
+    self.start_execution(self.command, self.working_directory)
+  File "/home/vladimir/Загрузки/govno/src/execution/process_pty.py", line 42, in start_execution
+    self.process = subprocess.Popen(command,
+  File "/usr/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conf/scripts/update.sh'
+2022-05-26 15:01:43,290 [tornado.access.ERROR] 500 POST /executions/start (127.0.0.1) 5.68ms
+2022-05-26 15:01:43,849 [web_server.INFO] Calling script update. User {'ip': '127.0.0.1', 'hostname': 'localhost'}
+2022-05-26 15:01:43,849 [script_server.execution_service.INFO] Calling script #8: conf/scripts/update.sh
+2022-05-26 15:01:43,850 [web_server.ERROR] Error while calling the script
+Traceback (most recent call last):
+  File "/home/vladimir/Загрузки/govno/src/web/server.py", line 395, in post
+    execution_id = self.application.execution_service.start_script(
+  File "/home/vladimir/Загрузки/govno/src/execution/execution_service.py", line 52, in start_script
+    executor.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/executor.py", line 98, in start
+    process_wrapper.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/process_base.py", line 29, in start
+    self.start_execution(self.command, self.working_directory)
+  File "/home/vladimir/Загрузки/govno/src/execution/process_pty.py", line 42, in start_execution
+    self.process = subprocess.Popen(command,
+  File "/usr/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conf/scripts/update.sh'
+2022-05-26 15:01:43,851 [tornado.access.ERROR] 500 POST /executions/start (127.0.0.1) 4.86ms
+2022-05-26 15:01:45,305 [web_server.INFO] Calling script update. User {'ip': '127.0.0.1', 'hostname': 'localhost'}
+2022-05-26 15:01:45,305 [script_server.execution_service.INFO] Calling script #9: conf/scripts/update.sh
+2022-05-26 15:01:45,307 [web_server.ERROR] Error while calling the script
+Traceback (most recent call last):
+  File "/home/vladimir/Загрузки/govno/src/web/server.py", line 395, in post
+    execution_id = self.application.execution_service.start_script(
+  File "/home/vladimir/Загрузки/govno/src/execution/execution_service.py", line 52, in start_script
+    executor.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/executor.py", line 98, in start
+    process_wrapper.start()
+  File "/home/vladimir/Загрузки/govno/src/execution/process_base.py", line 29, in start
+    self.start_execution(self.command, self.working_directory)
+  File "/home/vladimir/Загрузки/govno/src/execution/process_pty.py", line 42, in start_execution
+    self.process = subprocess.Popen(command,
+  File "/usr/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conf/scripts/update.sh'
+2022-05-26 15:01:45,308 [tornado.access.ERROR] 500 POST /executions/start (127.0.0.1) 5.34ms
+2022-05-26 15:01:49,199 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.65ms
+2022-05-26 15:01:49,326 [tornado.access.INFO] 304 GET /history/execution_log/short (127.0.0.1) 0.90ms
+2022-05-26 15:01:49,330 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.62ms
+2022-05-26 15:01:50,598 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 1.32ms
+2022-05-26 15:01:51,321 [tornado.access.INFO] 304 GET /admin/scripts/update (127.0.0.1) 0.84ms
+2022-05-26 15:02:27,953 [config_service.INFO] Updating script config "update" in conf/runners/update.json
+2022-05-26 15:02:27,954 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 2.94ms
+2022-05-26 15:02:27,968 [tornado.access.INFO] 200 GET /admin/scripts/update (127.0.0.1) 2.95ms
+2022-05-26 15:02:30,920 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.70ms
+2022-05-26 15:02:31,044 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.84ms
+2022-05-26 15:02:31,044 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 0.42ms
+2022-05-26 15:02:31,045 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 0.93ms
+2022-05-26 15:02:31,046 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 0.69ms
+2022-05-26 15:02:32,714 [tornado.access.INFO] 101 GET /scripts/update?initWithValues=false (127.0.0.1) 0.59ms
+2022-05-26 15:02:33,439 [web_server.INFO] Calling script update. User {'ip': '127.0.0.1', 'hostname': 'localhost'}
+2022-05-26 15:02:33,439 [script_server.execution_service.INFO] Calling script #10: /home/vladimir/scripts/update.sh
+2022-05-26 15:02:33,443 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 7.23ms
+2022-05-26 15:02:33,449 [tornado.access.INFO] 101 GET /executions/io/10 (127.0.0.1) 0.66ms
+2022-05-26 15:05:38,089 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 25.95ms
+2022-05-26 15:05:38,343 [tornado.access.INFO] 200 GET /history/execution_log/short (127.0.0.1) 140.91ms
+2022-05-26 15:05:38,382 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.67ms
+2022-05-26 15:05:41,937 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 0.81ms
+2022-05-26 15:06:54,613 [config_service.INFO] Creating new script config "test" in conf/runners/test.json
+2022-05-26 15:06:54,614 [tornado.access.INFO] 200 POST /admin/scripts (127.0.0.1) 16.45ms
+2022-05-26 15:06:54,684 [tornado.access.INFO] 200 GET /admin/scripts/test (127.0.0.1) 29.61ms
+2022-05-26 15:06:56,786 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.73ms
+2022-05-26 15:06:56,952 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.85ms
+2022-05-26 15:06:56,953 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 0.60ms
+2022-05-26 15:06:56,955 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 1.21ms
+2022-05-26 15:06:56,957 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.67ms
+2022-05-26 15:06:57,727 [tornado.access.INFO] 200 GET /executions/config/10 (127.0.0.1) 62.30ms
+2022-05-26 15:06:57,737 [tornado.access.INFO] 101 GET /executions/io/10 (127.0.0.1) 0.50ms
+2022-05-26 15:07:00,394 [tornado.access.INFO] 101 GET /scripts/test?initWithValues=false (127.0.0.1) 19.73ms
+2022-05-26 15:07:02,305 [web_server.INFO] Calling script test. User {'ip': '127.0.0.1', 'hostname': 'localhost'}
+2022-05-26 15:07:02,305 [script_server.execution_service.INFO] Calling script #11: /home/vladimir/scripts/crrrrr.sh
+2022-05-26 15:07:02,322 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 49.41ms
+2022-05-26 15:07:02,329 [tornado.access.INFO] 101 GET /executions/io/11 (127.0.0.1) 0.49ms
+2022-05-26 15:07:02,429 [web_server.INFO] localhost disconnected
+2022-05-26 15:07:02,433 [tornado.access.INFO] 200 POST /executions/cleanup/11 (127.0.0.1) 0.82ms
+2022-05-26 15:07:59,490 [tornado.access.INFO] 302 GET / (192.168.31.3) 0.41ms
+2022-05-26 15:07:59,715 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:07:59,716 [identification.INFO] Assigned user_id=192.168.31.3-4f63b31488dd4620 to {'ip': '192.168.31.3'}
+2022-05-26 15:07:59,742 [tornado.access.INFO] 200 GET /index.html (192.168.31.3) 246.40ms
+2022-05-26 15:07:59,785 [tornado.access.INFO] 200 GET /theme/theme.css (192.168.31.3) 4.33ms
+2022-05-26 15:07:59,831 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (192.168.31.3) 50.04ms
+2022-05-26 15:07:59,852 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (192.168.31.3) 70.56ms
+2022-05-26 15:07:59,947 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (192.168.31.3) 164.89ms
+2022-05-26 15:08:00,004 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (192.168.31.3) 220.69ms
+2022-05-26 15:08:00,112 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:00,113 [tornado.access.INFO] 200 GET /auth/info (192.168.31.3) 4.14ms
+2022-05-26 15:08:00,115 [tornado.access.INFO] 200 GET /conf (192.168.31.3) 0.90ms
+2022-05-26 15:08:00,119 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:00,120 [tornado.access.INFO] 200 GET /scripts (192.168.31.3) 4.38ms
+2022-05-26 15:08:00,121 [tornado.access.INFO] 200 GET /executions/active (192.168.31.3) 4.48ms
+2022-05-26 15:08:00,177 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (192.168.31.3) 51.88ms
+2022-05-26 15:08:00,185 [tornado.access.INFO] 200 GET /favicon.ico (192.168.31.3) 7.64ms
+2022-05-26 15:08:00,198 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (192.168.31.3) 8.92ms
+2022-05-26 15:08:00,220 [tornado.access.INFO] 200 GET /fonts/roboto-latin-300.ef7c6637.woff2 (192.168.31.3) 21.17ms
+2022-05-26 15:08:00,222 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (192.168.31.3) 1.55ms
+2022-05-26 15:08:04,121 [tornado.access.INFO] 101 GET /scripts/test?initWithValues=false (192.168.31.3) 0.98ms
+2022-05-26 15:08:04,124 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:06,625 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:06,628 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:06,628 [web_server.INFO] Calling script test. User {'ip': '192.168.31.3'}
+2022-05-26 15:08:06,628 [script_server.execution_service.INFO] Calling script #12: /home/vladimir/scripts/crrrrr.sh
+2022-05-26 15:08:06,631 [tornado.access.INFO] 200 POST /executions/start (192.168.31.3) 8.64ms
+2022-05-26 15:08:06,679 [tornado.access.INFO] 101 GET /executions/io/12 (192.168.31.3) 0.62ms
+2022-05-26 15:08:06,681 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:06,683 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:06,733 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:06,733 [web_server.INFO] 192.168.31.3 disconnected
+2022-05-26 15:08:06,739 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:06,740 [tornado.access.INFO] 200 POST /executions/cleanup/12 (192.168.31.3) 2.96ms
+2022-05-26 15:08:16,639 [tornado.access.INFO] 101 GET /scripts/update?initWithValues=false (192.168.31.3) 1.10ms
+2022-05-26 15:08:16,641 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:18,985 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:18,987 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:18,988 [web_server.INFO] Calling script update. User {'ip': '192.168.31.3'}
+2022-05-26 15:08:18,988 [script_server.execution_service.INFO] Calling script #13: /home/vladimir/scripts/update.sh
+2022-05-26 15:08:18,990 [tornado.access.INFO] 200 POST /executions/start (192.168.31.3) 6.45ms
+2022-05-26 15:08:19,007 [tornado.access.INFO] 101 GET /executions/io/13 (192.168.31.3) 0.58ms
+2022-05-26 15:08:19,009 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:19,011 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:22,457 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:22,457 [tornado.access.INFO] 200 POST /executions/stop/13 (192.168.31.3) 3.63ms
+2022-05-26 15:08:22,498 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:22,499 [web_server.INFO] 192.168.31.3 disconnected
+2022-05-26 15:08:22,502 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:08:22,503 [tornado.access.INFO] 200 POST /executions/cleanup/13 (192.168.31.3) 2.12ms
+2022-05-26 15:08:24,582 [tornado.access.INFO] 101 GET /scripts/test?initWithValues=false (192.168.31.3) 0.83ms
+2022-05-26 15:08:24,584 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-05-26 15:09:39,327 [tornado.access.INFO] 101 GET /scripts/update?initWithValues=false (127.0.0.1) 0.73ms
+2022-05-26 15:09:43,980 [web_server.INFO] localhost disconnected
+2022-05-26 15:09:43,981 [web_server.INFO] localhost disconnected
+2022-05-26 15:09:44,034 [tornado.access.INFO] 200 POST /executions/cleanup/10 (127.0.0.1) 20.05ms
+2022-05-26 15:09:44,034 [tornado.access.INFO] 200 POST /executions/cleanup/10 (127.0.0.1) 20.12ms
+2022-05-26 15:09:48,326 [tornado.access.INFO] 101 GET /scripts/test?initWithValues=false (127.0.0.1) 0.84ms
+2022-05-26 15:09:50,661 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.78ms
+2022-05-26 15:09:50,934 [tornado.access.INFO] 200 GET /history/execution_log/short (127.0.0.1) 2.02ms
+2022-05-26 15:09:50,950 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 1.16ms
+2022-05-26 15:09:55,441 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.67ms
+2022-05-26 15:09:55,591 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.86ms
+2022-05-26 15:09:55,593 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 0.73ms
+2022-05-26 15:09:55,595 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 1.67ms
+2022-05-26 15:09:55,596 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.59ms
+2022-05-26 15:09:58,436 [tornado.access.INFO] 101 GET /scripts/test?initWithValues=false (127.0.0.1) 0.75ms
+2022-05-26 15:10:00,401 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.51ms
+2022-05-26 15:10:00,526 [tornado.access.INFO] 304 GET /history/execution_log/short (127.0.0.1) 1.00ms
+2022-05-26 15:10:00,530 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.57ms
+2022-05-26 15:10:01,513 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 1.70ms
+2022-05-26 15:10:04,903 [tornado.access.INFO] 304 GET /admin/scripts/test (127.0.0.1) 2.10ms
+2022-05-26 15:10:44,677 [web_server.INFO] Stopping server on interrupt
+2022-05-26 15:11:17,648 [root.INFO] Starting Script Server, v1.17.1
+2022-05-26 15:11:22,072 [tornado.access.INFO] 304 GET /admin.html (127.0.0.1) 21.55ms
+2022-05-26 15:11:22,097 [tornado.general.ERROR] Could not open static file '/home/vladimir/Загрузки/govno/conf/theme/theme.css'
+2022-05-26 15:11:22,097 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.76ms
+2022-05-26 15:11:22,224 [tornado.access.INFO] 304 GET /admin/scripts/test (127.0.0.1) 1.07ms
+2022-05-26 15:11:22,228 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.66ms
+2022-05-26 15:11:24,055 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.79ms
+2022-05-26 15:11:24,213 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.83ms
+2022-05-26 15:11:24,215 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 1.22ms
+2022-05-26 15:11:24,216 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 1.60ms
+2022-05-26 15:11:24,217 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 0.57ms
+2022-05-26 15:11:25,946 [tornado.access.INFO] 101 GET /scripts/update?initWithValues=false (127.0.0.1) 0.95ms
+2022-05-26 15:11:39,997 [web_server.INFO] Stopping server on interrupt
+2022-06-02 09:27:29,808 [root.INFO] Starting Script Server, v1.17.1
+2022-06-02 09:27:47,912 [tornado.access.INFO] 302 GET / (127.0.0.1) 1.02ms
+2022-06-02 09:27:48,060 [tornado.access.INFO] 304 GET /index.html (127.0.0.1) 111.72ms
+2022-06-02 09:27:48,088 [tornado.general.ERROR] Could not open static file '/home/vladimir/Загрузки/govno/conf/theme/theme.css'
+2022-06-02 09:27:48,102 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 14.33ms
+2022-06-02 09:27:48,249 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 146.12ms
+2022-06-02 09:27:48,295 [tornado.access.INFO] 304 GET /js/index.8b5156a2.js (127.0.0.1) 45.82ms
+2022-06-02 09:27:48,434 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 0.91ms
+2022-06-02 09:27:48,435 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 0.73ms
+2022-06-02 09:27:48,437 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 1.54ms
+2022-06-02 09:27:48,440 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 0.71ms
+2022-06-02 09:27:48,518 [tornado.access.INFO] 304 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 12.42ms
+2022-06-02 09:27:54,368 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.03ms
+2022-06-02 09:27:54,396 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.77ms
+2022-06-02 09:27:54,491 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 74.29ms
+2022-06-02 09:27:54,503 [tornado.access.INFO] 304 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 11.52ms
+2022-06-02 09:27:54,509 [tornado.access.INFO] 304 GET /css/admin.ee33e5eb.css (127.0.0.1) 16.30ms
+2022-06-02 09:27:54,511 [tornado.access.INFO] 304 GET /js/admin.d0e2842d.js (127.0.0.1) 18.59ms
+2022-06-02 09:27:54,637 [tornado.access.INFO] 200 GET /history/execution_log/short (127.0.0.1) 1.81ms
+2022-06-02 09:27:54,644 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.57ms
+2022-06-02 09:27:54,663 [tornado.access.INFO] 304 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 11.34ms
+2022-06-02 09:28:05,810 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 1.58ms
+2022-06-02 09:28:08,555 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.60ms
+2022-06-02 09:28:08,693 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.76ms
+2022-06-02 09:28:08,694 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 0.46ms
+2022-06-02 09:28:08,698 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 0.88ms
+2022-06-02 09:28:08,698 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 0.37ms
+2022-06-02 09:28:12,754 [web_server.INFO] Stopping server on interrupt
+2022-06-02 09:31:30,617 [root.INFO] Starting Script Server, v1.17.1
+2022-06-02 09:42:17,428 [web_server.INFO] Stopping server on interrupt
+2022-06-02 09:42:23,769 [root.INFO] Starting Script Server, v1.17.1
+2022-06-02 09:42:43,161 [tornado.access.INFO] 302 GET / (127.0.0.1) 0.86ms
+2022-06-02 09:42:43,186 [tornado.general.ERROR] Could not open static file '/home/vladimir/Myproject/testwork/ansible/roles/script-server/files/conf/theme/theme.css'
+2022-06-02 09:42:43,186 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2022-06-02 09:42:43,300 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 1.14ms
+2022-06-02 09:42:43,302 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 1.14ms
+2022-06-02 09:42:43,303 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 1.73ms
+2022-06-02 09:42:43,304 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 0.48ms
+2022-06-02 13:49:25,736 [root.INFO] Starting Script Server, v1.17.1
+2022-06-02 13:49:29,721 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-06-02 13:49:29,721 [identification.INFO] Assigned user_id=192.168.31.3-ef2fcb53fd9745c6 to {'ip': '192.168.31.3'}
+2022-06-02 13:49:29,726 [tornado.access.INFO] 200 GET /index.html (192.168.31.3) 7.81ms
+2022-06-02 13:49:29,755 [tornado.general.ERROR] Could not open static file '/home/vladimir/Myproject/testwork/ansible/roles/script-server/files/scriptserver/conf/theme/theme.css'
+2022-06-02 13:49:29,755 [tornado.access.INFO] 200 GET /theme/theme.css (192.168.31.3) 0.55ms
+2022-06-02 13:49:29,808 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-06-02 13:49:29,808 [tornado.access.INFO] 304 GET /auth/info (192.168.31.3) 2.97ms
+2022-06-02 13:49:29,811 [tornado.access.INFO] 200 GET /conf (192.168.31.3) 1.79ms
+2022-06-02 13:49:29,813 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-06-02 13:49:29,814 [tornado.access.INFO] 200 GET /scripts (192.168.31.3) 4.38ms
+2022-06-02 13:49:29,814 [tornado.access.INFO] 304 GET /executions/active (192.168.31.3) 4.31ms
+2022-06-02 13:49:30,734 [tornado.access.INFO] 304 GET /index.html (192.168.31.3) 1.17ms
+2022-06-02 13:49:30,765 [tornado.access.INFO] 200 GET /theme/theme.css (192.168.31.3) 0.61ms
+2022-06-02 13:49:30,802 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-06-02 13:49:30,803 [tornado.access.INFO] 304 GET /auth/info (192.168.31.3) 3.72ms
+2022-06-02 13:49:30,804 [tornado.access.INFO] 304 GET /conf (192.168.31.3) 3.83ms
+2022-06-02 13:49:30,807 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-06-02 13:49:30,808 [tornado.access.INFO] 304 GET /scripts (192.168.31.3) 4.08ms
+2022-06-02 13:49:30,810 [tornado.access.INFO] 304 GET /executions/active (192.168.31.3) 0.94ms
+2022-06-02 13:49:36,836 [tornado.access.INFO] 304 GET /index.html (192.168.31.3) 1.36ms
+2022-06-02 13:49:36,870 [tornado.access.INFO] 200 GET /theme/theme.css (192.168.31.3) 0.62ms
+2022-06-02 13:49:36,908 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-06-02 13:49:36,909 [tornado.access.INFO] 304 GET /auth/info (192.168.31.3) 3.96ms
+2022-06-02 13:49:36,910 [tornado.access.INFO] 304 GET /conf (192.168.31.3) 3.99ms
+2022-06-02 13:49:36,913 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-06-02 13:49:36,915 [tornado.access.INFO] 304 GET /scripts (192.168.31.3) 4.09ms
+2022-06-02 13:49:36,915 [tornado.access.INFO] 304 GET /executions/active (192.168.31.3) 4.32ms
+2022-06-02 13:49:46,553 [tornado.access.INFO] 304 GET /index.html (192.168.31.3) 1.33ms
+2022-06-02 13:49:46,585 [tornado.access.INFO] 200 GET /theme/theme.css (192.168.31.3) 0.62ms
+2022-06-02 13:49:46,646 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-06-02 13:49:46,647 [tornado.access.INFO] 304 GET /auth/info (192.168.31.3) 3.47ms
+2022-06-02 13:49:46,648 [tornado.access.INFO] 304 GET /conf (192.168.31.3) 0.80ms
+2022-06-02 13:49:46,652 [script_server.audit_utils.WARNING] Could not get hostname for 192.168.31.3
+2022-06-02 13:49:46,654 [tornado.access.INFO] 304 GET /scripts (192.168.31.3) 4.53ms
+2022-06-02 13:49:46,654 [tornado.access.INFO] 304 GET /executions/active (192.168.31.3) 4.79ms
+2022-06-02 13:49:57,954 [web_server.INFO] Stopping server on interrupt

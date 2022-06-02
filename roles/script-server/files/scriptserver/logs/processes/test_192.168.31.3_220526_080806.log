@@ -1,0 +1,11 @@
+id:12
+user_name:192.168.31.3
+user_id:192.168.31.3-4f63b31488dd4620
+script:test
+start_time:1653552486631
+command:/home/vladimir/scripts/crrrrr.sh
+output_format:terminal
+exit_code:0
+>>>>>  OUTPUT STARTED <<<<<
+Linux vladimir-Z68P-DS3 5.15.0-30-generic #31-Ubuntu SMP Thu May 5 10:00:34 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+vladimir

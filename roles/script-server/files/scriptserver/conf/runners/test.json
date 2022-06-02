@@ -1,0 +1,7 @@
+{
+  "name": "test",
+  "script_path": "/home/vladimir/scripts/crrrrr.sh",
+  "working_directory": "/",
+  "group": "users",
+  "parameters": []
+}

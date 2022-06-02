@@ -1,0 +1,13 @@
+id:13
+user_name:192.168.31.3
+user_id:192.168.31.3-4f63b31488dd4620
+script:update
+start_time:1653552498990
+command:/home/vladimir/scripts/update.sh
+output_format:terminal
+exit_code:-15
+>>>>>  OUTPUT STARTED <<<<<
+[sudo] пароль для vladimir: 
+>> STOPPED BY USER
+
+sudo: требуется пароль

@@ -12,6 +12,7 @@
     - nginx.conf
     - default.conf
     - Dockerfile
+    - conf.json
 - name: exit docker container
   docker_compose:
     project_src: app/
