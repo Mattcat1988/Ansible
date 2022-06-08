@@ -4,9 +4,9 @@
   become: yes
 
   roles:
-#    - krb5-config
-#    - ldapsearch
-#    - docker_install
-#    - change_name
-#    - timesync
+    - krb5-config
+    - ldapsearch
+    - docker_install
+    - change_name
+    - timesync
     - script-server
